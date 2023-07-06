@@ -32,8 +32,10 @@ def break_text(text: str, font: str, max_width: int):
     tmp = ''
     wrapped = []
 
-    # Iterates through all the words, and if the width of a tempory variable and the word is larger than the max width,
-    # the string is appended to a list, and the string is set to the word plus a space, otherwise the word is just added
+    # Iterates through all the words, and if the width of a tempory variable
+    # and the word is larger than the max width,
+    # the string is appended to a list, and the string is set to the word plus
+    # a space, otherwise the word is just added
     # to the temporary string with a space.
     for word in word_list:
         if fnt.getsize(tmp + word)[0] > max_width and fnt.getsize(word)[0] <= max_width:
