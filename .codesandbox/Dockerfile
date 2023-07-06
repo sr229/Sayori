@@ -1,6 +1,6 @@
 FROM python:latest
 
-RUN pip install pipenv pyenv
+RUN pip install pipenv
 
 USER root
 
