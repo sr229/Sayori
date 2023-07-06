@@ -2,7 +2,8 @@ import streamlit as st
 import image
 
 # SEO stuff
-st.set_page_config(page_title="Sayori Poem Generator - Powered by Streamlit", page_icon="💖", layout="centered")
+st.set_page_config(page_title="Sayori Poem Generator - Powered by Streamlit",
+                   page_icon="💖", layout="centered")
 
 # Our header is a Markdown file so let's use that instead.
 st.markdown(open("STREAMLIT_HEADER.md").read(), unsafe_allow_html=True)
@@ -38,8 +39,8 @@ with st.form("sayori_main", clear_on_submit=True):
     uploaded_file = st.file_uploader("Choose a file", type="txt")
     poem = st.text_area("Or paste your poem here", height=300)
 
-    if st.form_submit_button("Generate", 
-        use_container_width=True, type="primary"):
+    if st.form_submit_button("Generate",
+                             use_container_width=True, type="primary"):
         # Don't do anything if all variables are empty
         if uploaded_file is None and poem == "":
             st.error("Error: No poem found!")
