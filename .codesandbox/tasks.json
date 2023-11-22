@@ -17,6 +17,7 @@
     "start-api": {
       "name": "Start API",
       "command": "pipenv run gunicorn -w 2 webserver_api:app --log-level DEBUG -b 0.0.0.0:7270",
+      "runAtStart": true,
 
       "preview": {
         "port": 7270,
