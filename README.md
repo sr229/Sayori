@@ -3,7 +3,7 @@
 </p>
 
 # Sayori - render your prose/poems like it's Doki Doki Literature Club!
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y6Y0W4)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y6Y0W4) [![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/sr229/sayori)
 
 Sayori allows you to add more flair to your poems or proses and render them in Doki Doki Literature Club's style, using Python's PIL module to generate images for you to share!
 
